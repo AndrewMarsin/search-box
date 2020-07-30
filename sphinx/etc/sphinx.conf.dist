@@ -1,0 +1,109 @@
+#
+# Sphinx configuration file sample
+#
+# WARNING! While this sample file mentions all available options,
+# it contains (very) short helper descriptions only. Please refer to
+# doc/sphinx.html for details.
+#
+
+#############################################################################
+## data source definition
+#############################################################################
+
+source mainresults
+{
+	# data source type. mandatory, no default value
+	# known types are mysql, pgsql, mssql, xmlpipe, xmlpipe2, odbc
+	type			= mysql
+
+	#####################################################################
+	## SQL settings (for 'mysql' and 'pgsql' types)
+	#####################################################################
+
+	# some straightforward parameters for SQL source types
+	sql_host		= localhost
+	sql_user		= root
+	sql_pass		=
+	sql_db			= fitnesrf_electron
+	sql_port		= 3306	# optional, default is 3306
+}
+	
+source results : mainresults 
+{
+
+	sql_query = SELECT id, url, page_name, img, body FROM views;
+ 
+	#здесь вы должны указать по каким полям будете группировать результаты, 
+	#лучше указать все которые были перечислены сверху, тогда выглядеть будет логично
+	#type of group fields
+	#sql_field_string = id
+	sql_field_string = url
+	sql_field_string = page_name
+	sql_field_string = img
+	sql_field_string = body
+}
+ 
+index results
+{
+	source			= results
+	path			= C:/sphinx/data/results
+	#morphology		= stem_enru
+	min_word_len		= 3
+	# dict			= keywords
+	# mlock			= 0	
+	# docinfo		= extern
+ morphology		= stem_en, stem_ru, soundex
+	# morphology		= libstemmer_german
+	# morphology		= libstemmer_sv
+	# min_stemming_len	= 1
+	# wordforms		= C:/Sphinx/data/wordforms.txt
+	# ngram_chars		= U+3000..U+2FA1F
+	# phrase_boundary	= ., ?, !, U+2026 # horizontal ellipsis
+
+	#morphology		= stem_enru, Soundex, Metaphone
+	#min_word_len		= 1
+	expand_keywords		= 1
+	index_exact_words	= 1
+	min_infix_len		= 3
+}
+ 
+##############################
+ 
+indexer
+{
+	mem_limit	= 64M
+}
+ 
+
+searchd
+{
+	# [hostname:]port[:protocol], or /unix/socket/path to listen on
+	# known protocols are 'sphinx' (SphinxAPI) and 'mysql41' (SphinxQL)
+	#
+	# multi-value, multiple listen points are allowed
+	# optional, defaults are 9312:sphinx and 9306:mysql41, as below
+	#
+    listen			= 127.0.0.1
+	# listen			= 192.168.0.1:9312
+	# listen			= 9312
+	# listen			= /var/run/searchd.sock
+	listen			= 9312
+	listen			= 9306:mysql41
+
+
+	log = /var/log/searchd.log
+	query_log = /var/log/query.log
+	pid_file = /log/searchd.pid
+
+	seamless_rotate		= 1
+	preopen_indexes		= 1
+	unlink_old		= 1
+
+	# client read timeout, seconds
+	# optional, default is 5
+	read_timeout		= 5
+
+	# request timeout, seconds
+	# optional, default is 5 minutes
+	client_timeout		= 300
+}

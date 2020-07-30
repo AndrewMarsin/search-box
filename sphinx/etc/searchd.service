@@ -1,0 +1,13 @@
+[Unit]
+Description=Sphinx searchd daemon
+After=network.target
+ 
+[Service]
+Type=oneshot
+ExecStart=/fitness/public_html/search_box/sphinx/bin/sphinx.sh start
+ExecStop=/fitness/public_html/search_box/sphinx/bin/sphinx.sh stop
+ExecReload=/fitness/public_html/search_box/sphinx/bin/sphinx.sh restart
+RemainAfterExit=yes
+ 
+[Install]
+WantedBy=multi-user.target

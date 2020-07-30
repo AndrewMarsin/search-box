@@ -1,0 +1,94 @@
+[Thu Apr 11 22:26:50.165 2019] [1776] listening on all interfaces, port=9312
+[Thu Apr 11 22:26:50.167 2019] [1776] listening on all interfaces, port=9306
+[Thu Apr 11 22:26:51.842 2019] [1776] accepting connections
+[Thu Apr 11 22:26:51.845 2019] [1956] prereading 1 indexes
+[Thu Apr 11 22:26:52.137 2019] [1956] prereaded 1 indexes in 0.292 sec
+[Fri Apr 12 11:38:55.433 2019] [1776] shutdown complete
+[Fri Apr 12 16:28:32.766 2019] [1056] listening on all interfaces, port=9312
+[Fri Apr 12 16:28:32.771 2019] [1056] listening on all interfaces, port=9306
+[Fri Apr 12 16:28:33.368 2019] [1056] accepting connections
+[Fri Apr 12 16:28:33.368 2019] [6288] prereading 1 indexes
+[Fri Apr 12 16:28:33.457 2019] [6288] prereaded 1 indexes in 0.089 sec
+[Sun Apr 14 11:43:01.656 2019] [1056] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Apr 14 11:43:01.905 2019] [7740] rotating index 'results1': started
+[Sun Apr 14 11:43:02.279 2019] [7740] rotating index 'results1': success
+[Sun Apr 14 11:43:02.386 2019] [7740] rotating index: all indexes done
+[Sun Apr 14 11:52:36.625 2019] [1056] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Apr 14 11:52:36.732 2019] [7740] rotating index 'results1': started
+[Sun Apr 14 11:52:36.793 2019] [7740] WARNING: index 'results1': wordforms file 'c:/xampp/htdocs/Site/search_box/sphinx/data/wordforms.txt' is shared with index 'results1', but tokenizer settings are different
+[Sun Apr 14 11:52:36.904 2019] [7740] rotating index 'results1': success
+[Sun Apr 14 11:52:36.904 2019] [7740] rotating index: all indexes done
+[Sun Apr 14 12:21:04.266 2019] [1056] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Apr 14 12:21:04.314 2019] [7740] rotating index 'results1': started
+[Sun Apr 14 12:21:04.316 2019] [7740] WARNING: index 'results1': wordforms file 'c:/xampp/htdocs/Site/search_box/sphinx/data/wordforms.txt' is shared with index 'results1', but tokenizer settings are different
+[Sun Apr 14 12:21:04.369 2019] [7740] rotating index 'results1': success
+[Sun Apr 14 12:21:04.370 2019] [7740] rotating index: all indexes done
+[Sun Apr 14 12:41:02.050 2019] [1056] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Apr 14 12:41:02.107 2019] [7740] rotating index 'results1': started
+[Sun Apr 14 12:41:02.121 2019] [7740] WARNING: index 'results1': wordforms file 'c:/xampp/htdocs/Site/search_box/sphinx/data/wordforms.txt' is shared with index 'results1', but tokenizer settings are different
+[Sun Apr 14 12:41:02.227 2019] [7740] rotating index 'results1': success
+[Sun Apr 14 12:41:02.227 2019] [7740] rotating index: all indexes done
+[Sun Apr 14 12:41:56.828 2019] [1056] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Apr 14 12:41:56.865 2019] [7740] rotating index 'results1': started
+[Sun Apr 14 12:41:56.866 2019] [7740] WARNING: index 'results1': wordforms file 'c:/xampp/htdocs/Site/search_box/sphinx/data/wordforms.txt' is shared with index 'results1', but tokenizer settings are different
+[Sun Apr 14 12:41:56.969 2019] [7740] rotating index 'results1': success
+[Sun Apr 14 12:41:56.970 2019] [7740] rotating index: all indexes done
+[Sun Apr 14 13:12:37.155 2019] [1056] shutdown complete
+[Sun Apr 14 13:18:58.899 2019] [4900] listening on all interfaces, port=9312
+[Sun Apr 14 13:18:58.901 2019] [4900] listening on all interfaces, port=9306
+[Sun Apr 14 13:18:59.265 2019] [4900] rotating index 'results1': success
+[Sun Apr 14 13:18:59.375 2019] [4900] accepting connections
+[Sun Apr 14 13:18:59.375 2019] [7268] prereading 1 indexes
+[Sun Apr 14 13:18:59.376 2019] [7268] prereaded 1 indexes in 0.000 sec
+[Sun Apr 14 13:38:41.577 2019] [4900] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Apr 14 13:38:41.620 2019] [8760] rotating index 'results1': started
+[Sun Apr 14 13:38:41.752 2019] [8760] rotating index 'results1': success
+[Sun Apr 14 13:38:41.758 2019] [8760] rotating index: all indexes done
+[Sat Apr 20 21:54:34.860 2019] [4900] shutdown complete
+[Sun Apr 21 18:52:34.411 2019] [2384] listening on all interfaces, port=9312
+[Sun Apr 21 18:52:34.412 2019] [2384] listening on all interfaces, port=9306
+[Sun Apr 21 18:52:34.567 2019] [2472] prereading 1 indexes
+[Sun Apr 21 18:52:34.567 2019] [2384] accepting connections
+[Sun Apr 21 18:52:34.568 2019] [2472] prereaded 1 indexes in 0.000 sec
+[Fri Apr 26 09:08:41.164 2019] [2384] shutdown complete
+[Fri Apr 26 12:58:44.708 2019] [2488] listening on all interfaces, port=9312
+[Fri Apr 26 12:58:44.710 2019] [2488] listening on all interfaces, port=9306
+[Fri Apr 26 12:58:44.925 2019] [2488] accepting connections
+[Fri Apr 26 12:58:44.925 2019] [2596] prereading 1 indexes
+[Fri Apr 26 12:58:44.926 2019] [2596] prereaded 1 indexes in 0.000 sec
+[Sun Apr 28 20:28:42.103 2019] [2488] shutdown complete
+[Sun Apr 28 20:38:39.804 2019] [2468] listening on all interfaces, port=9312
+[Sun Apr 28 20:38:39.805 2019] [2468] listening on all interfaces, port=9306
+[Sun Apr 28 20:38:39.929 2019] [2588] prereading 1 indexes
+[Sun Apr 28 20:38:39.929 2019] [2468] accepting connections
+[Sun Apr 28 20:38:39.930 2019] [2588] prereaded 1 indexes in 0.000 sec
+[Sun Apr 28 20:41:54.950 2019] [2468] shutdown complete
+[Sun Apr 28 20:43:05.089 2019] [1424] listening on all interfaces, port=9312
+[Sun Apr 28 20:43:05.092 2019] [1424] listening on all interfaces, port=9306
+[Sun Apr 28 20:43:07.769 2019] [1424] accepting connections
+[Sun Apr 28 20:43:07.770 2019] [2304] prereading 1 indexes
+[Sun Apr 28 20:43:07.993 2019] [2304] prereaded 1 indexes in 0.223 sec
+[Sun Apr 28 20:56:18.301 2019] [1424] shutdown complete
+[Sun Apr 28 20:57:41.589 2019] [2148] listening on all interfaces, port=9312
+[Sun Apr 28 20:57:41.590 2019] [2148] listening on all interfaces, port=9306
+[Sun Apr 28 20:57:41.953 2019] [2148] accepting connections
+[Sun Apr 28 20:57:41.955 2019] [2288] prereading 1 indexes
+[Sun Apr 28 20:57:41.955 2019] [2288] prereaded 1 indexes in 0.000 sec
+[Sun Apr 28 21:00:34.388 2019] [2148] shutdown complete
+[Sun Apr 28 21:01:31.900 2019] [1524] listening on all interfaces, port=9312
+[Sun Apr 28 21:01:31.901 2019] [1524] listening on all interfaces, port=9306
+[Sun Apr 28 21:01:34.598 2019] [1524] accepting connections
+[Sun Apr 28 21:01:34.599 2019] [1720] prereading 1 indexes
+[Sun Apr 28 21:01:34.942 2019] [1720] prereaded 1 indexes in 0.344 sec
+[Sun Apr 28 21:11:18.298 2019] [1524] shutdown complete
+[Sun Apr 28 21:12:44.524 2019] [2188] listening on all interfaces, port=9312
+[Sun Apr 28 21:12:44.525 2019] [2188] listening on all interfaces, port=9306
+[Sun Apr 28 21:12:45.613 2019] [2296] prereading 1 indexes
+[Sun Apr 28 21:12:45.613 2019] [2188] accepting connections
+[Sun Apr 28 21:12:45.655 2019] [2296] prereaded 1 indexes in 0.043 sec
+[Sun Apr 28 23:43:19.815 2019] [2188] shutdown complete
+[Sun Apr 28 23:44:53.034 2019] [1196] listening on all interfaces, port=9312
+[Sun Apr 28 23:44:53.037 2019] [1196] listening on all interfaces, port=9306
+[Sun Apr 28 23:44:53.341 2019] [1196] accepting connections
+[Sun Apr 28 23:44:53.354 2019] [2084] prereading 1 indexes
+[Sun Apr 28 23:44:53.357 2019] [2084] prereaded 1 indexes in 0.002 sec
