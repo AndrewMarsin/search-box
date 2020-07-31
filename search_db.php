@@ -3,7 +3,7 @@ include '../db.php';
 
 $html = '<li class="res"><a target="_blank" href="urlString">';
 $html .= '<img style="max-width:270px;float:left;margin-right:10px;background-color:#171717;" src="img_page">';
-$html .= '<h2>title_name</h2>';
+$html .= '<h2 class="res_h2">title_name</h2>';
 $html .= '<h3>...body_stuff...</h3></a></li>';
 
 $nores = '<div class="sorry" >Извините! Результатов не найдено...<img class="smile" src="/search_box/svg/sad.svg"><br><h5 style="margin: 10px;">(Попробуйте изменить запрос!)</h5></div>';
